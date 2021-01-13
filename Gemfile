@@ -48,7 +48,7 @@ end
 
 group :documentation do
   gem 'yard'
-  gem 'redcarpet', '< 3.0.0' # Not compatible with MRI 1.8.7
+  gem 'redcarpet', '~> 3.5', '>= 3.5.1' # Not compatible with MRI 1.8.7
   gem 'github-markup'
   gem 'pygments.rb'
 end
